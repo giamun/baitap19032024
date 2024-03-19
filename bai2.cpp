@@ -24,7 +24,7 @@ int main() {
 	scanf("%d", &n);
 
 	int soLuongSoChinhPhuong = demSoChinhPhuong(n);
-	printf("\nSo luong so chinh phuong nho hon %d la: %d\n", n, soLuongSoChinhPhuong);
+	printf("So luong so chinh phuong nho hon %d la: %d\n", n, soLuongSoChinhPhuong);
 
 	printf("Danh sach cac so chinh phuong:\n");
 	for (int i = 1; i <= n; i++) {
